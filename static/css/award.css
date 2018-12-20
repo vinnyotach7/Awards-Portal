@@ -1,0 +1,262 @@
+body{
+    font-family: 'Mali', cursive;
+
+}
+span:hover{
+    color: lightblue;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border: 3px rgb(42, 107, 185);
+    left: 0;
+    background-color: rgb(2, 20, 22);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.red{
+    float: right;
+}
+.blue{
+    
+    background-image: url("https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2017/01/24063320/08a3c76413096d2f0b0b9b57d3274a1ecd4a04a7b14cd1b08d5b8390d7823497.jpg");
+    background-size: cover;
+    height: 560px;
+    width: 100%;
+    
+}
+.mail{
+    padding: 0;
+    height: 300px;
+    width:100%;
+    
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    }
+   
+    .formStyle {
+    margin: 20px;
+    background:rgba(250, 250, 250, 0.178);
+    padding: 6px;
+    width: 40%;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+    border-bottom-color: #ecf0f1;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;
+    border-radius: 5px;
+    }
+    
+    .formButton {
+    margin: 20px;
+    background-color:rgb(55, 70, 73);
+    display:inline-block;
+    color:white;
+    font-size:28px;
+    font-weight: 100px;
+    padding:6px 40px;
+    text-decoration:none;
+    border-radius: 5px;
+    }
+    
+    .formButton:hover {
+    background-color: rgba(55, 70, 73, 0.582);
+    color:white;
+    }
+    
+    input:focus {
+    outline: none;
+    }
+    
+    ::-webkit-input-placeholder {
+    color: #ecf0f1;
+    }
+    
+    :-moz-placeholder {
+    color: #ecf0f1;
+    }
+    
+    :-ms-input-placeholder {
+    color: #ecf0f1;
+    }
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: inherit;
+  font-weight: bold;
+  margin: 2px;
+  padding: 7px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+
+.btn-2::after {
+    height: 10%;
+    left: 0;
+    top: 0;
+    width: 0;
+    }
+    
+    .btn-2:hover:after {
+    width: 10%;
+    }
+/*  */
+/*  */
+
+.cs-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .cs-loader-inner {
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    width: calc(100% - 200px);
+    color: #fff;
+    padding: 0 100px;
+    text-align: center;
+  }
+  
+  .cs-loader-inner label {
+    font-size: 20px;
+    opacity: 0;
+    display: inline-block;
+  }
+  
+  @keyframes lol {
+    0% {
+      opacity: 0;
+      transform: translateX(-300px);
+    }
+    33% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    66% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+  }
+  
+  @-webkit-keyframes lol {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-300px);
+    }
+    33% {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+    }
+    66% {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(300px);
+    }
+  }
+  
+  .cs-loader-inner label:nth-child(6) {
+    -webkit-animation: lol 3s infinite ease-in-out;
+    animation: lol 3s infinite ease-in-out;
+  }
+  
+  .cs-loader-inner label:nth-child(5) {
+    -webkit-animation: lol 3s 100ms infinite ease-in-out;
+    animation: lol 3s 100ms infinite ease-in-out;
+  }
+  
+  .cs-loader-inner label:nth-child(4) {
+    -webkit-animation: lol 3s 200ms infinite ease-in-out;
+    animation: lol 3s 200ms infinite ease-in-out;
+  }
+  
+  .cs-loader-inner label:nth-child(3) {
+    -webkit-animation: lol 3s 300ms infinite ease-in-out;
+    animation: lol 3s 300ms infinite ease-in-out;
+  }
+  
+  .cs-loader-inner label:nth-child(2) {
+    -webkit-animation: lol 3s 400ms infinite ease-in-out;
+    animation: lol 3s 400ms infinite ease-in-out;
+  }
+  
+  .cs-loader-inner label:nth-child(1) {
+    -webkit-animation: lol 3s 500ms infinite ease-in-out;
+    animation: lol 3s 500ms infinite ease-in-out;
+  }
