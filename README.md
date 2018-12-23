@@ -19,7 +19,8 @@ As a user of the application I should be able to:
 <ol>
 <li>git clone https://github.com/vinnyotach7/Awards-Portal.git</li>
 <li>cd Awards</li>
-<li>source virtual/bin/activate</li> Install all the necessary requirements by running pip install -r requirements.txt (Python 3.6).
+<li>source virtual/bin/activate</li> 
+<li>Install all the necessary requirements by running pip install -r requirements.txt (Python 3.6).
     $ ./manager.py runserver</li>
 <li>
 </ol>
