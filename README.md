@@ -3,7 +3,7 @@ Simple award application where users can see the projects posted,register and al
 # By Vinny Otach
 
 # Application
-<img src="/home/moringaschool/Pictures/Screenshot from 2018-12-17 17-40-14.png">
+<img src="/home/moringaschool/Documents/django projects/Awards/media/images/Screenshot from 2018-12-21 15-47-19.png">
 
 # User Stories
 As a user of the application I should be able to:
