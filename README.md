@@ -1,31 +1,44 @@
-<!-- # Award-Portal
+# Award-Portal
 Simple award application where users can see the projects posted,register and also submit their own projects,users can also vote on the project from variuos prospectives
 # By Vinny Otach
 
 # Application
 <img src="/home/moringaschool/Pictures/Screenshot from 2018-12-17 17-40-14.png">
-# Description
-This is  a simple photo gallery web application to showcase beautiful pictures and designs. Users get to view photos updated by the site admin. Users can see photos based on the location, by clicking on the listed locations in the menu. They can also copy the link to a photo to paste at their discretion. The search functionality will search photos based on the categories.
 
 # User Stories
 As a user of the application I should be able to:
 <ul>
-<li>View different photos that interest me.</li>
-<li>Click on a single photo to expand it and also view the details of the photo. The photo details must appear on a modal within the same route as the main page.</li>
-<li>Search for different categories of photos</li>
-<li>Copy a link to the photo to share with my friends.</li>
-<li>View photos based on the location they were taken</li>
+<li>View posted projects and their details.</li>
+<li>Post a project.</li>
+<li>Rate other users projects</li>
+<li>Search for projects.</li>
+<li>View my profile page</li>
 </ul>
 
 # Set up and Installations
 <ol>
-<li>Python3.6</li>
-<li>Postgres</li>
-<li>python virtualenv</li>
+<li>git clone https://github.com/vinnyotach7/Awards-Portal.git</li>
+<li>cd Awards</li>
+<li>source virtual/bin/activate</li> Install all the necessary requirements by running pip install -r requirements.txt (Python 3.6).
+    $ ./manager.py runserver</li>
+<li>
 </ol>
 
+# How to prepare environment variables
+Since one needs a virtual enviroment, Create a virtual file and add the following configutions to it
+<ul>
+<li>SECRET_KEY= #secret key will be added by default</li>
+<li>DEBUG= #set to false in production</li>
+<li>DB_NAME= #database name</li>
+<li>DB_USER= #database user</li>
+<li>DB_PASSWORD=#database password</li>
+<li>DB_HOST="127.0.0.1"</li>
+<li> MODE= # dev or prod , set to prod during production</li>
+<li>ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'</li>
+</ul>
+
 # Cloning 
-To clone this application on your terminal;https://github.com/vinnyotach7/Snapshot.git
+To clone this application on your terminal;https://github.com/vinnyotach7/Awards-Portal.git
 
 # Creating Database
 <ul>
@@ -43,7 +56,7 @@ To make changes to the application and for you to see them take effect you shoul
 # Technologies Used
 <ul>
 <li>python3.6</li>
-<li>HTML</li>
+<li>Django</li>
 <li>Bootstrap3</li>
 <li>Postgres</li>
 </ul>
@@ -51,4 +64,4 @@ To make changes to the application and for you to see them take effect you shoul
 # License
 MIT Copyright (c) Vinny Otach
 
- -->
+
