@@ -1,7 +1,7 @@
 # Award-Portal
 Simple award application where users can see the projects posted,register and also submit their own projects,users can also vote on the project from variuos prospectives
 # By Vinny Otach
-<img src="https://www.wallpapersbyte.com/wp-content/uploads/2016/01/The-Oscar-Award-Academ-Awards-Gold-WallpapersByte-com-3840x2400.jpg>
+<img src="https://www.wallpapersbyte.com/wp-content/uploads/2016/01/The-Oscar-Award-Academ-Awards-Gold-WallpapersByte-com-3840x2400.jpg">
 # Application
 <img src="/home/moringaschool/Documents/django projects/Awards/static/pics/Screenshot from 2018-12-21 15-47-19.png">
 
