@@ -5,8 +5,6 @@ from django.dispatch import receiver
 from django.core.validators import MinValueValidator, MaxValueValidator
 
 # Create your models here.
-
-
 class Profile(models.Model):
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, related_name='profile')

@@ -128,7 +128,7 @@ def search_results(request):
     if 'username' in request.GET and request.GET["username"]:
         search_term = request.GET.get("username")
         searched_users = User.objects.filter(username=search_term)
-        message = f"{search_term}"
+        # message = f"{search_term}"
         profiles = Profile.objects.all()
         # profile = Profile.objects.get(user_id=id)
         # post=Project.objects.filter(user_id=id)
@@ -141,7 +141,6 @@ def search_results(request):
 
 @login_required(login_url='/accounts/login/')
 def comment(request, image_id):
-    #Getting comment form data
     image = Project.objects.get(id=image_id)
     if request.method == 'POST':
         form = ReviewForm(request.POST)
@@ -222,7 +221,7 @@ def projects(request, id):
     usability = []
     creativity = []
     content = []
-    # End of list
+    
     # For loop to appent the votes to the empty list
     for vote in votes:
                 design.append(vote.design)
